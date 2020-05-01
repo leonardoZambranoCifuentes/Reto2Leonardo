@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/layoutListenerTrack">
+
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:id="@+id/imageURLtrack">
+    </ImageView>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre de la Cancion"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/nameTrack">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre del artista"
+            android:textSize="18sp"
+            android:layout_marginTop="12dp"
+            android:id="@+id/artistTrack">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Año de lanzamiento"
+            android:layout_marginTop="12dp"
+            android:textSize="18sp"
+            android:id="@+id/yearTrack">
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>
